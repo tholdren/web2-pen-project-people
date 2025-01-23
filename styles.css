@@ -1,8 +1,11 @@
-/* temp background color */
 body {
-    background: lightsalmon;
-  }
-/* Diagnotsic Styling */
-* {
-    outline: 1px dotted rgb(204, 204, 204);
-  }
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+#confetti {
+  background: lightgoldenrodyellow;
+  padding: 1em;
+  border-radius: .35em;
+}
